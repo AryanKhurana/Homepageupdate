@@ -7,7 +7,7 @@ body{
   background-color: #1bcdd7;
 
 }
-.carousel-item img{overflow:hidden;height:380px;}
+.carousel-item img{overflow:hidden;}
 
 iframe{border-radius:0% !important;}
 
@@ -92,11 +92,7 @@ img{max-width:100%;height:auto;}
   }
   .col-lg-4{margin-top:40px;}
 }
-@media(max-width: 600px) {
-  .carousel-item img{
-	  height:auto;
-	}
-}
+
 @media(max-width: 707px) and (min-width:480px) {
   section.midsection .quote1{
   position:absolute;
@@ -111,7 +107,7 @@ img{max-width:100%;height:auto;}
 
 .ppl{margin-left:80px;color:white;font-family:fantasy;margin-top:0px;position:absolute;top:0;}
 img{border-radius:50%;height:auto;max-width:100%;}
-.carousel-item img{border-radius:0%;max-height:650px;}
+.carousel-item img{border-radius:0%;max-height:500px;}
 
 .foot{background-color:black;padding:1%;}
 section.hi .container {
